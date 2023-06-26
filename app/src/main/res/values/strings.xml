@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mindMolder</string>
+    <string name="username_field">uNameF</string>
+    <string name="email_field">emailF</string>
+    <string name="scoreColor">scoreColorGame</string>
+    <string name="scoreMemory">scoreMemoryGame</string>
+    <string name="gameOver">Game Over</string>
+    <string name="isMusicOn">isMusicOn</string>
+    <string name="isVibOn">isVibrationOn</string>
+    <string name="bitmap_field">bitmapF</string>
+</resources>

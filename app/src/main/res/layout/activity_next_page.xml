@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nextPage"
+    android:orientation="vertical"
+    android:background="#16AEF3" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE YOUR NEXT PAGE"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/colorBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="colors🌈🌈🌈\nSPEED CHALLENGE!"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:textColor="#A5FFEB"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/simonBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="simon❤💙💚💛\nMEMORY CHALLENGE!"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:textColor="#A5FFEB"
+        android:backgroundTint="#80D8FF"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/leaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="leaderboard\n🔥🔥🔥"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:textColor="#0A0B0B"
+        android:backgroundTint="#FFB700"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="settings\n⚙️⚙️⚙️"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:textColor="#C3C3C3"
+        android:backgroundTint="#7C7A7A"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/exitGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit game ⛔"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="#FF0000"
+        />
+
+
+</LinearLayout>

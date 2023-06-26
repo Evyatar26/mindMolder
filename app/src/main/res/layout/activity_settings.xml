@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16AEF3"
+    android:orientation="vertical"
+    tools:context=".settings">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SETTINGS"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:checked="true"
+        android:text="music"
+        android:textStyle="bold" />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/vibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:text="vibrations"
+        android:textStyle="bold"
+        android:checked="true" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="credits: "
+        android:textColor="@color/white"
+        android:textSize="29sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="this app was made by Evyatar Cohen"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="for a Bagrut project in CS,\nalso it was made as a side project."
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="contact (bugs/ideas):"
+        android:textColor="@color/white"
+        android:textSize="29sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You can contact me in the email below\ncohen.evyatar26@gmail.com\n(not available on saturdays)"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+
+    <Button
+        android:id="@+id/retToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="return to menu"
+        android:backgroundTint="#F4B193"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete account"
+        android:backgroundTint="#F31616"
+        />
+
+
+</LinearLayout>

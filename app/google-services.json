@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462045450034",
+    "project_id": "mindmolder-516e0",
+    "storage_bucket": "mindmolder-516e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462045450034:android:54f8f115f2a9cd2b00912b",
+        "android_client_info": {
+          "package_name": "com.example.mindmolder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462045450034-p7ml06a7i4msm9i6q6tk4smh2lo6dm8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzsKw_l9VEPl4-B8mfXVpj5SxGTJVbCv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462045450034-p7ml06a7i4msm9i6q6tk4smh2lo6dm8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
